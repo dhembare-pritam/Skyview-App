@@ -1,0 +1,632 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+.container{
+    width: 100%;
+    display: inline-block;
+}
+.inner{
+    margin: 0 auto;
+    width: 1360px;
+}
+.zapper{
+    position: relative;
+    float: left;
+}
+.imgshutter{
+    width: 100%;
+    height: 100%;
+}
+.apartments{
+    padding: 10px 20px;
+    background-color: white;
+    font-size: 10px;
+    color: black;
+    text-transform: uppercase;
+} 
+.maindeta{
+    width: 100%;
+     /* border: 1px solid; */
+}
+.maindeta .headerwrapper{
+    width: 15%;
+    height: 580px;
+    /* border: 1px solid; */
+    float: left;
+    position: fixed;
+    background-color: rgb(17, 10, 59);
+}
+.maindeta .headerwrapper .logo{
+    width: 100%;
+    height: 160px;
+    /* border: 1px solid; */
+}
+.maindeta .headerwrapper .menu{
+    width: 100%;
+    height: 420px;
+    /* border: 1px solid; */
+}
+.maindeta .headerwrapper .menu .features{
+    width: 100%;
+    height: 70px;
+    /* border: 1px solid; */
+}
+.content{
+    width: 85%;
+    /* border: 1px solid; */
+    float: right;
+}
+.content .banner{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#mzapper{
+     display: none; 
+}
+.content .banner .fa-bars{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.content .banner .middle_banner{
+    width: 40%;
+    float: left;
+    position:absolute;
+    top: 30%;
+    left: 20%;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 50px 100px;
+}
+.content .banner .middle_banner h1{
+    font-size: 40px;
+    color: white;
+}
+.content .banner .middle_banner p{
+    padding: 20px;
+    color: white;
+    font-size: 22px;
+}
+.content .complex{
+    width: 100%;
+    /* height: 600px; */
+    /* border: 1px solid; */
+    padding-top: 80px;
+}
+.content .complex .corner{
+    width: 80%;
+    /* height: 300px; */
+    margin: 0 auto;
+    /* border: 1px solid; */
+}
+.content .complex .corner .floors{
+    width: 49%;
+    /* border: 1px solid; */
+    /* height: 300px; */
+}
+.content .complex .corner .floors h5{
+    text-transform: uppercase;
+    color: rgb(49, 178, 181);
+}
+.content .complex .corner .floors h2{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.content .complex .corner .floors p{
+    font-size: 15px;
+    padding: 30px 50px;
+}
+.content .complex .corner .floors span{
+   text-transform: uppercase;
+}
+.content .complex .corner .floors a{
+    border: 1px solid;
+    margin-left: 60px;
+ }
+ .content .complex .corner .garage{
+    width: 49%;
+    /* border: 1px solid; */
+    /* height: 300px; */
+    float: right;
+}
+.content .complex .built{
+    width: 75%;
+    /* height: 150px; */
+    /* border: 1px solid; */
+    margin: 40px 120px;
+}
+.content .drinking{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(8, 3, 43);
+}
+.content .drinking .garden{
+    width: 25%;
+    /* border: 1px solid; */
+    height: 600px;
+}
+.content .drinking .garden .room{
+    width: 100%;
+    /* border: 1px solid; */
+    height: 200px;
+    text-transform: uppercase;
+}
+.content .drinking .garden .room h4{
+   padding-top: 80px;
+   padding-left: 30px;
+   font-size: 14px;
+   color: rgb(26, 151, 153);
+}
+.content .drinking .garden .room h2{
+    padding-left: 30px;
+    color: white;
+    font-size: 20px;
+ }
+ .content .drinking .garden .details{
+    width: 100%;
+    height: 400px;
+    text-transform: uppercase;
+}
+.content .drinking .garden .details h4{
+    color:rgb(48, 116, 184);
+    font-size: 12px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.content .drinking .garden .details ul li{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.content .drinking .garden .details ul li a{
+    color: white;
+    font-size: 12px;
+}
+.content .drinking .basin{
+    width: 74.7%;
+    height: 600px;
+    float: right;
+}
+.content .drinking .basin .mirror{
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+}
+.content .drinking .basin .mirror .lamps{
+    width: 100%;
+    height: 280px;
+}
+.content .drinking .basin .mirror .lamps .lampsleft{
+    width: 60%;
+    height: 280px;
+}
+.content .drinking .basin .mirror .lamps .lampsright{
+    width: 39%;
+    height: 280px;
+    background-color: black;
+}
+.content .drinking .basin .mirror .lamps .lampsright .fa-check-circle{
+    padding-left: 20px;
+    padding-top: 20px;
+    color: white;
+}
+.content .drinking .basin .mirror .lamps .lampsright .rost{
+    color: white;
+}
+.content .drinking .basin .mirror .obtain{
+    width: 100%;
+    height: 220px;
+}
+.content .drinking .basin .mirror .obtain h5{
+    color: white;
+    text-transform: uppercase;
+    padding-top: 80px;
+    font-size: 15px;
+}
+.content .drinking .basin .mirror .obtain span{
+    color: white;
+    text-transform: capitalize;
+    padding-left: 90px;
+    font-size: 13px;
+}
+.content .drinking .basin .mirror .obtain p{
+    color: rgb(79, 73, 73);
+    font-size: 13px;
+    padding-left: 90px;
+    padding-top: 10px;
+}
+.content .beautiful{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid; */
+}
+.content .beautiful .handge{
+    width: 40%;
+    height: 500px;
+    /* border: 1px solid; */
+}
+.content .beautiful .handge h4{
+    text-transform: uppercase;
+    color: rgb(110, 149, 222);
+    padding-top: 80px;
+    padding-left: 60px;
+}
+.content .beautiful .handge h2{
+    text-transform: uppercase;
+    padding-left: 60px;
+}
+.content .beautiful .handge p{
+    text-transform: capitalize;
+    padding-left: 60px;
+    padding-left: 160px;
+    padding-top: 30px;
+}
+.content .beautiful .feature{
+    width: 55%;
+    height: 500px;
+    /* border: 1px solid; */
+}
+.content .beautiful .feature .auctor{
+    width: 100%;
+    height: 380px;
+    /* border: 1px solid; */
+    margin-top: 40px;
+}
+.content .beautiful .feature .auctor .neighbor{
+    width: 98.6%;
+    height: 190px;
+    padding-left: 4px;
+    /* border: 1px solid; */
+}
+.content .beautiful .feature .auctor .large{
+    width: 100%;
+    height: 185px;
+    /* border: 1px solid; */
+}
+.content .beautiful .feature .auctor .large .pool{
+    width: 49%;
+    height: 185px;
+    /* border: 1px solid; */
+    padding-top: 4px;
+    padding-left: 4px;
+}
+.content .beautiful .feature .auctor .large .estate{
+    width: 49%;
+    height: 185px;
+    /* border: 1px solid; */
+    padding-top: 4px;
+    padding-left: 4px;
+}
+.content .villa{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid; */
+}
+.content .villa .large{
+    width: 20%;
+    height: 70px;
+    margin: auto;
+    margin-top: 40px;
+    /* border: 1px solid; */
+    text-align: center;
+    text-transform: uppercase;
+}
+.content .villa .large h4{
+    color: cornflowerblue;
+}
+.content .villa .large h2{
+    font-size: 20px;
+    font-weight: 900;
+}
+.content .villa .quality{
+    width: 90%;
+    height: 375px;
+    /* border: 1px solid; */
+    margin: auto;
+}
+.content .villa .quality .land{
+    width: 49.8%;
+    height: 375px;
+    /* border: 1px solid; */
+}
+.content .villa .quality .land .amet{
+    width: 100%;
+    height: 280px;
+    /* border: 1px solid; */
+}
+.content .villa .quality .land .mattis{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid; */
+    padding-top: 30px;
+    padding-left: 90px;
+    font-size: 15px;
+}
+.content .villa .quality .land .agents{
+    width: 90%;
+    height: 125px;
+    /* border: 1px solid; */
+    margin-left: 50px;
+}
+.content .villa .quality .land .agents .real{
+    width: 49.6%;
+    /* border: 1px solid; */
+    height: 125px;
+    float: left;
+}
+.content .villa .quality .land .agents .real .posuere{
+    width: 30%;
+    height: 60px;
+    /* border: 1px solid; */
+}
+.content .villa .quality .land .agents .real .sand{
+    width: 68%;
+    height: 125px;
+    /* border: 1px solid; */
+}
+.content .villa .quality .land .agents .real .sand h6{
+    text-transform: uppercase;
+    font-size: 13px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+}
+.content .villa .quality .land .agents .real .sand p{
+    text-transform: capitalize;
+    font-size: 12px;
+    line-height: 20px;
+    padding-left: 8px;
+}
+.content .central{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid; */
+    padding-top: 80px;
+}
+.content .central .garden{
+    width: 90%;
+    height: 400px;
+    /* border: 1px solid; */
+    margin: auto;
+}
+.content .central .garden .near{
+    width: 50%;
+    height: 400px;
+    /* border: 1px solid; */
+
+}
+.content .central .garden .near h4{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: cornflowerblue;
+}
+.content .central .garden .near h3{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight:bold;
+}
+.content .central .garden .near p{
+    padding-left: 60px;
+}
+.content .central .garden .near strong{
+    text-transform: uppercase;
+    font-size: 10px;
+    padding: 30px 30px;
+    font-weight: bold;
+}
+.content .central .garden .places{
+    width: 40%;
+    height: 350px;
+    /* border: 1px solid; */
+    margin-top: 70px;
+}
+.content .comments{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid; */
+    background-image: url("images/revslide_h2-2.jpg");
+}
+.content .comments .roberts{
+    text-align: center;
+    color: white;
+}
+.content .comments .roberts h6{
+    text-transform: uppercase;
+    padding-top: 100px;
+}
+.content .comments .roberts h2{
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+.content .comments .roberts p{
+    text-transform: capitalize;
+    padding-top: 25px;
+}
+.content .comments .roberts .fa-star{
+    padding-top: 80px;
+    color: rgb(223, 164, 14);
+}
+.content .comments .roberts h4{
+    text-transform: uppercase;
+    padding-top: 20px;
+    color: rgb(109, 151, 229);
+}
+.content .comments .roberts small{
+    text-transform: uppercase;
+    
+}
+.content .comments .roberts img{
+    width: 50px;
+    height: 50px;
+    padding-top: 30px;
+}
+.content .source{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid; */
+}
+.content .source .blog{
+    width: 20%;
+    height: 80px;
+    /* border: 1px solid; */
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.content .source .blog h6{
+    color: rgb(66, 120, 222);
+    padding-bottom: 10px;
+}
+.content .source .admin{
+    width: 90%;
+    height: 360px;
+    /* border: 1px solid; */
+    margin: auto;
+}
+.content .source .admin .lamb{
+    width: 31%;
+    height: 360px;
+    /* border: 1px solid; */
+    margin-left: 16px;
+}
+.content .source .admin .lamb .giant{
+    width: 100%;
+    height: 180px;
+    /* border: 1px solid; */
+}
+.content .source .admin .lamb .giant h6{
+    text-transform: uppercase;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.content .source .admin .lamb .giant p{
+    text-transform: capitalize;
+    padding-top: 10px;
+    font-size: 12px;
+    line-height: 22px
+}
+.content .source .admin .lamb .giant a{
+    text-transform: uppercase;
+    color: black;
+    font-size: 14px;
+}
+.content .source .admin .lamb .giant .inject{
+    text-transform: uppercase;
+    color: cornflowerblue;
+}
+.footer{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid; */
+    background-color: rgb(25, 25, 30);
+    color: white;
+}
+.footer .certified{
+    width: 90%;
+    height: 250px;
+    /* border: 1px solid; */
+    margin: auto;
+}
+.footer .certified .agent{
+    width: 23%;
+    height: 250px;
+    /* border: 1px solid; */
+    margin-left: 15px;
+}
+.footer .certified .agent .smith{
+    width: 100%;
+    height: 70px;
+    /* border: 1px solid; */
+}
+.footer .certified .agent .smith .fa-phone{
+    padding: 20px;
+}
+.footer .certified .agent .brand{
+    width: 60%;
+    height: 70px;
+    /* border: 1px solid; */
+    float: right;
+}
+ .nevis{
+    padding: 6px 15px;
+    background-color: rgb(27, 180, 180);
+    color: white;
+    text-transform: uppercase;
+}
+.footer .certified .agent a{
+    text-decoration: underline rgb(67, 67, 236);
+    color: white;
+    text-transform: uppercase;
+}
+.footer .certified .agent p{
+    padding-top: 40px;
+    text-transform: capitalize;
+}
+.footer .certified .agent img{
+    width: 30%;
+    height: 60%;
+}
+.footer .spanish{
+    width: 10%;
+    height: 100px;
+    position: absolute;
+    /* border: 1px solid; */
+    bottom: 45%;
+    left: 44%;
+}
+#agenda:hover{
+    color: red;
+    text-decoration: underline;
+
+}
+.footer .complete{
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid; */
+}
+.footer .complete .aquarium{
+    width: 45%;
+    height: 130px;
+    /* border: 1px solid; */
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+}
+.footer .complete .aquarium textarea{
+   width: 505px;
+   height: 60px;
+}
+.footer .complete .aquarium button{
+    position: absolute;
+    left: 45%;
+    height: 40px;
+    top: 79%;
+}
+.footer .reserved{
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid; */
+}
+.footer .reserved p{
+   padding-top: 15px;
+   padding-left: 60px;
+}
+.footer .reserved .icode{
+    width: 20%;
+    height: 40px;
+    position: absolute;
+    bottom: 10%;
+    right: 6%;
+    /* border: 1px solid; */
+}
+.footer .reserved .icode p{
+    padding: 10px 30px;
+}
+.footer .reserved .icode i{
+    padding-left: 10px;
+}
